@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>Bibliography of the Kitāb Sībawayhi in electronic form</title>
+                        <respStmt>
+                              <resp xml:id="SO">Originally prepared and encoded by</resp>
+                              <name>Simona Olivieri</name>
+                              <orgName>Seminar für Semitistik und Arabistik - Freie Universität
+                                    Berlin</orgName>
+                        </respStmt>
+                        <funder>Alexander von Humboldt-Stiftung</funder>
+                  </titleStmt>
+                  <publicationStmt>
+                        <publisher/>
+                        <date>2020</date>
+                        <availability>
+                              <p>Distributed as output of Simona Olivieri's Humboldt research
+                                    fellowship</p>
+                              <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This
+                                    is an open access work licensed under a cc by-nc 4.0
+                                    license</licence>
+                        </availability>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <bibl>Sībawayhi, ʻAmr ibn ʻUthmān. 1966. Al-Kitāb. Edited by ʻAbd al-Salām
+                              Muḥammad Hārūn. 5 vols. Cairo: Maktabat al-Ḫānǧī.</bibl>
+                  </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                  <tagsDecl>
+                        <namespace name="http://www.tei-c.org/ns/1.0">
+                              <tagUsage gi="bibl">The attribute @xml:id contains information on the
+                                    Qurʾānic verse quoted in text. The structure of the @xml:id is
+                                    as follows:Q(Qurʾān)_X(number of the sūra quoted in roman
+                                    numerals)_N(number of the verse).</tagUsage>
+                              <tagUsage gi="citedRange">The attribute @unit provides information on
+                                    how the cited range in text is referred to in the bibliography.
+                                    Thus, "sura:verse" indicated that the first element in
+                                    "citedRange" is the number of the sūra quoted (in roman
+                                    numerals) followed by the number of the cited verse. Identifies
+                                    the chapter's title</tagUsage>
+                        </namespace>
+                  </tagsDecl>
+            </encodingDesc>
+            <profileDesc>
+                  <langUsage>
+                        <language ident="ar" rendition="rtl">Text in Arabic language</language>
+                  </langUsage>
+            </profileDesc>
+      </teiHeader>
+      <text>
+            <body>
+                  <listBibl>
+                        <head>References from the Quran</head>
+                        <bibl xml:id="Q_X_10"><title>Quran</title><citedRange unit="sura:verse"
+                                    >X:10</citedRange></bibl>
+                        <bibl xml:id="Q_VII_155"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VII:155</citedRange></bibl>
+                        <bibl xml:id="Q_IV_166"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IV:166</citedRange></bibl>
+                        <bibl xml:id="Q_XVI_124"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVI:124</citedRange></bibl>
+                        <bibl xml:id="Q_II_65"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:65</citedRange></bibl>
+                        <bibl xml:id="Q_VIII_60"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VIII:60</citedRange></bibl>
+                        <bibl xml:id="Q_XLV_45"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLV:45</citedRange></bibl>
+                        <bibl xml:id="Q_VII_82"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VII:82</citedRange></bibl>
+                        <bibl xml:id="Q_VI_23"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VI:23</citedRange></bibl>
+                        <bibl xml:id="Q_XII_10"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XII:10</citedRange></bibl>
+                        <bibl xml:id="Q_CXII_4"><title>Quran</title><citedRange unit="sura:verse"
+                                    >CXII:4</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVIII_3"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXVIII:3</citedRange></bibl>
+                        <bibl xml:id="Q_XII_31"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XII:31</citedRange></bibl>
+                        <bibl xml:id="Q_II_112"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:112</citedRange></bibl>
+                        <bibl xml:id="Q_IX_117"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IX:117</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIII_35"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIII:35</citedRange></bibl>
+                        <bibl xml:id="Q_XLI_17"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLI:17</citedRange></bibl>
+                        <bibl xml:id="Q_LXXVI_31"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXVI:31</citedRange></bibl>
+                        <bibl xml:id="Q_VII_30"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VII:30</citedRange></bibl>
+                        <bibl xml:id="Q_XXV_38"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXV:38</citedRange></bibl>
+                        <bibl xml:id="Q_XXV_39"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXV:39</citedRange></bibl>
+                        <bibl xml:id="Q_III_154"><title>Quran</title><citedRange unit="sura:verse"
+                                    >III:154</citedRange></bibl>
+                        <bibl xml:id="Q_XVII_96"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVII:96</citedRange></bibl>
+                        <bibl xml:id="Q_LVI_20"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LVI:20</citedRange></bibl>
+                        <bibl xml:id="Q_XLI_40"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLI:40</citedRange></bibl>
+                        <bibl xml:id="Q_III_42"><title>Quran</title><citedRange unit="sura:verse"
+                                    >III:42</citedRange></bibl>
+                        <bibl xml:id="Q_II_274"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:274</citedRange></bibl>
+                        <bibl xml:id="Q_XLVII_21"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLVII:21</citedRange></bibl>
+                        <bibl xml:id="Q_XXIV_2"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXIV:2</citedRange></bibl>
+                        <bibl xml:id="Q_V_38"><title>Quran</title><citedRange unit="sura:verse"
+                                    >V:38</citedRange></bibl>
+                        <bibl xml:id="Q_XLVIII_15"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLVIII:15</citedRange></bibl>
+                        <bibl xml:id="Q_VII_75"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VII:75</citedRange></bibl>
+                        <bibl xml:id="Q_XXIV_1"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXIV:1</citedRange></bibl>
+                        <bibl xml:id="Q_IV_16"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IV:16</citedRange></bibl>
+                        <bibl xml:id="Q_XV_30"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XV:30</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVIII_73"><title>Quran</title><citedRange
+                                    unit="sura:verse">XXXVIII:73</citedRange></bibl>
+                        <bibl xml:id="Q_LIV_49"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LIV:49</citedRange></bibl>
+                        <bibl xml:id="Q_II_217"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:217</citedRange></bibl>
+                        <bibl xml:id="Q_II_251"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:251</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIX_60"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIX:60</citedRange></bibl>
+                        <bibl xml:id="Q_VIII_37"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VIII:37</citedRange></bibl>
+                        <bibl xml:id="Q_III_185"><title>Quran</title><citedRange unit="sura:verse"
+                                    >III:185</citedRange></bibl>
+                        <bibl xml:id="Q_LIV_27"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LIV:27</citedRange></bibl>
+                        <bibl xml:id="Q_XXXII_12"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXII:12</citedRange></bibl>
+                        <bibl xml:id="Q_V_1"><title>Quran</title><citedRange unit="sura:verse"
+                                    >V:1</citedRange></bibl>
+                        <bibl xml:id="Q_V_2"><title>Quran</title><citedRange unit="sura:verse"
+                                    >V:2</citedRange></bibl>
+                        <bibl xml:id="Q_XCV_95"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XCV:95</citedRange></bibl>
+                        <bibl xml:id="Q_XLVI_24"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLVI:24</citedRange></bibl>
+                        <bibl xml:id="Q_LVI_22"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LVI:22</citedRange></bibl>
+                        <bibl xml:id="Q_XIV_47"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XIV:47</citedRange></bibl>
+                        <bibl xml:id="Q_IV_155"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IV:155</citedRange></bibl>
+                        <bibl xml:id="Q_V_13"><title>Quran</title><citedRange unit="sura:verse"
+                                    >V:13</citedRange></bibl>
+                        <bibl xml:id="Q_IV_162"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IV:162</citedRange></bibl>
+                        <bibl xml:id="Q_XC_14"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XC:14</citedRange></bibl>
+                        <bibl xml:id="Q_XC_1"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XC:15</citedRange></bibl>
+                        <bibl xml:id="Q_XVIII_103"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVIII:103</citedRange></bibl>
+                        <bibl xml:id="Q_IV_4"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IV:4</citedRange></bibl>
+                        <bibl xml:id="Q_XII_82"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XII:82</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIV_33"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIV:33</citedRange></bibl>
+                        <bibl xml:id="Q_II_177"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:177</citedRange></bibl>
+                        <bibl xml:id="Q_II_171"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:171</citedRange></bibl>
+                        <bibl xml:id="Q_XVIII_12"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVIII:12</citedRange></bibl>
+                        <bibl xml:id="Q_XVIII_19"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVIII:19</citedRange></bibl>
+                        <bibl xml:id="Q_II_102"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:102</citedRange></bibl>
+                        <bibl xml:id="Q_II_220"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:220</citedRange></bibl>
+                        <bibl xml:id="Q_IX_3"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IX:3</citedRange></bibl>
+                        <bibl xml:id="Q_XLVII_4"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLVII:4</citedRange></bibl>
+                        <bibl xml:id="Q_V_24"><title>Quran</title><citedRange unit="sura:verse"
+                                    >V:24</citedRange></bibl>
+                        <bibl xml:id="Q_II_35"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:35</citedRange></bibl>
+                        <bibl xml:id="Q_VII_19"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VII:19</citedRange></bibl>
+                        <bibl xml:id="Q_VI_137"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VI:137</citedRange></bibl>
+                        <bibl xml:id="Q_XXV_63"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXV:63</citedRange></bibl>
+                        <bibl xml:id="Q_XXV_25"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXV:25</citedRange></bibl>
+                        <bibl xml:id="Q_XIII_29"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XIII:29</citedRange></bibl>
+                        <bibl xml:id="Q_LXXVII_15"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXVII:15</citedRange></bibl>
+                        <bibl xml:id="Q_LXXVII_19"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXVII:19</citedRange></bibl>
+                        <bibl xml:id="Q_LXXVII_24"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXVII:24</citedRange></bibl>
+                        <bibl xml:id="Q_LXXVII_28"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXVII:28</citedRange></bibl>
+                        <bibl xml:id="Q_LXXVII_34"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXVII:34</citedRange></bibl>
+                        <bibl xml:id="Q_LXXVII_37"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXVII:37</citedRange></bibl>
+                        <bibl xml:id="Q_LXXVII_40"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXVII:45</citedRange></bibl>
+                        <bibl xml:id="Q_LXXVII_47"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXVII:47</citedRange></bibl>
+                        <bibl xml:id="Q_LXXVII_49"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXVII:49</citedRange></bibl>
+                        <bibl xml:id="Q_LXXXIII_10"><title>Quran</title><citedRange
+                                    unit="sura:verse">LXXXIII:10</citedRange></bibl>
+                        <bibl xml:id="Q_LXXXIII_1"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXXIII_1</citedRange></bibl>
+                        <bibl xml:id="Q_XX_44"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XX:44</citedRange></bibl>
+                        <bibl xml:id="Q_IX_30"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IX:30</citedRange></bibl>
+                        <bibl xml:id="Q_LXIII_4"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXIII:4</citedRange></bibl>
+                        <bibl xml:id="Q_XXVII_88"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVII:88</citedRange></bibl>
+                        <bibl xml:id="Q_VI_96"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VI:96</citedRange></bibl>
+                        <bibl xml:id="Q_LXXV_4"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXV:4</citedRange></bibl>
+                        <bibl xml:id="Q_XXX_4"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXX:4</citedRange></bibl>
+                        <bibl xml:id="Q_XXX_5"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXX:5</citedRange></bibl>
+                        <bibl xml:id="Q_XXXII_7"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXII:7</citedRange></bibl>
+                        <bibl xml:id="Q_IV_24"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IV:24</citedRange></bibl>
+                        <bibl xml:id="Q_IV_23"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IV:23</citedRange></bibl>
+                        <bibl xml:id="Q_XLVI_35"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLVI:35</citedRange></bibl>
+                        <bibl xml:id="Q_II_48"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:48</citedRange></bibl>
+                        <bibl xml:id="Q_II_123"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:123</citedRange></bibl>
+                        <bibl xml:id="Q_XLVII_29"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLVII:29</citedRange></bibl>
+                        <bibl xml:id="Q_XCVI_15"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XCVI_15</citedRange></bibl>
+                        <bibl xml:id="Q_XCVI_16"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XCVI_16</citedRange></bibl>
+                        <bibl xml:id="Q_XXI_26"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXI:26</citedRange></bibl>
+                        <bibl xml:id="Q_XLI_52"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLI:52</citedRange></bibl>
+                        <bibl xml:id="Q_XLI_53"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLI:53</citedRange></bibl>
+                        <bibl xml:id="Q_XLV_12"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLV:12</citedRange></bibl>
+                        <bibl xml:id="Q_II_275"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:275</citedRange></bibl>
+                        <bibl xml:id="Q_III_105"><title>Quran</title><citedRange unit="sura:verse"
+                                    >III:105</citedRange></bibl>
+                        <bibl xml:id="Q_X_42"><title>Quran</title><citedRange unit="sura:verse"
+                                    >X:42</citedRange></bibl>
+                        <bibl xml:id="Q_XII_30"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XII:30</citedRange></bibl>
+                        <bibl xml:id="Q_XXI_3"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXI:3</citedRange></bibl>
+                        <bibl xml:id="Q_LXVIII_43"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXVIII:43</citedRange></bibl>
+                        <bibl xml:id="Q_LXX_44"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXX:44</citedRange></bibl>
+                        <bibl xml:id="Q_LXXIII_18"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXIII:18</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIII_21"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIII:21</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVI_40"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXVI:40</citedRange></bibl>
+                        <bibl xml:id="Q_XII_4"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XII:4</citedRange></bibl>
+                        <bibl xml:id="Q_XXVII_18"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVII:18</citedRange></bibl>
+                        <bibl xml:id="Q_LXXIV_49"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXIV:49</citedRange></bibl>
+                        <bibl xml:id="Q_LXX_15"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXX:15</citedRange></bibl>
+                        <bibl xml:id="Q_XI_72"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XI:72</citedRange></bibl>
+                        <bibl xml:id="Q_XXV_31"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXV:31</citedRange></bibl>
+                        <bibl xml:id="Q_VI_32"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VI:32</citedRange></bibl>
+                        <bibl xml:id="Q_L_23"><title>Quran</title><citedRange unit="sura:verse"
+                                    >L:23</citedRange></bibl>
+                        <bibl xml:id="Q_XXVII_87"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVII:87</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVI_32"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXVI:32</citedRange></bibl>
+                        <bibl xml:id="Q_LXXXVI_21"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXXVI:21</citedRange></bibl>
+                        <bibl xml:id="Q_VII_102"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VII:102</citedRange></bibl>
+                        <bibl xml:id="Q_XXVI_186"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVI:186</citedRange></bibl>
+                        <bibl xml:id="Q_XI_111"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XI:111</citedRange></bibl>
+                        <bibl xml:id="Q_XXXI_27"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXI:27</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIV_48"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIV:48</citedRange></bibl>
+                        <bibl xml:id="Q_CXI_13"><title>Quran</title><citedRange unit="sura:verse"
+                                    >CXI:13</citedRange></bibl>
+                        <bibl xml:id="Q_XXVIII_82"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVIII:82</citedRange></bibl>
+                        <bibl xml:id="Q_V_69"><title>Quran</title><citedRange unit="sura:verse"
+                                    >V:69</citedRange></bibl>
+                        <bibl xml:id="Q_XXII_48"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXII:48</citedRange></bibl>
+                        <bibl xml:id="Q_LXV_18"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXV:18</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIX_46"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIX:46</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIV_10"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIV:10</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIX_12"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIX:12</citedRange></bibl>
+                        <bibl xml:id="Q_II_26"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:26</citedRange></bibl>
+                        <bibl xml:id="Q_II_38"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:38</citedRange></bibl>
+                        <bibl xml:id="Q_II_62"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:62</citedRange></bibl>
+                        <bibl xml:id="Q_II_262"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:262</citedRange></bibl>
+                        <bibl xml:id="Q_II_277"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:277</citedRange></bibl>
+                        <bibl xml:id="Q_III_170"><title>Quran</title><citedRange unit="sura:verse"
+                                    >III:170</citedRange></bibl>
+                        <bibl xml:id="Q_VII_35"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VII:35</citedRange></bibl>
+                        <bibl xml:id="Q_X_62"><title>Quran</title><citedRange unit="sura:verse"
+                                    >X:62</citedRange></bibl>
+                        <bibl xml:id="Q_XLVI_13"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLVI:13</citedRange></bibl>
+                        <bibl xml:id="Q_III_47"><title>Quran</title><citedRange unit="sura:verse"
+                                    >III:47</citedRange></bibl>
+                        <bibl xml:id="Q_IV_66"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IV:66</citedRange></bibl>
+                        <bibl xml:id="Q_XXIV_6"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXIV:6</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVI_43"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXVI:43</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVI_44"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXVI:44</citedRange></bibl>
+                        <bibl xml:id="Q_XI_43"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XI:43</citedRange></bibl>
+                        <bibl xml:id="Q_X_98"><title>Quran</title><citedRange unit="sura:verse"
+                                    >X:98</citedRange></bibl>
+                        <bibl xml:id="Q_XI_116"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XI:116</citedRange></bibl>
+                        <bibl xml:id="Q_XXII_40"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXII:40</citedRange></bibl>
+                        <bibl xml:id="Q_XXI_22"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXI:22</citedRange></bibl>
+                        <bibl xml:id="Q_IV_95"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IV:95</citedRange></bibl>
+                        <bibl xml:id="Q_I_7"><title>Quran</title><citedRange unit="sura:verse"
+                                    >I:7</citedRange></bibl>
+                        <bibl xml:id="Q_IV_159"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IV:159</citedRange></bibl>
+                        <bibl xml:id="Q_IV_29"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IV:29</citedRange></bibl>
+                        <bibl xml:id="Q_XXVII_42"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVII:42</citedRange></bibl>
+                        <bibl xml:id="Q_III_66"><title>Quran</title><citedRange unit="sura:verse"
+                                    >III:66</citedRange></bibl>
+                        <bibl xml:id="Q_III_119"><title>Quran</title><citedRange unit="sura:verse"
+                                    >III:119</citedRange></bibl>
+                        <bibl xml:id="Q_IV_109"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IV:109</citedRange></bibl>
+                        <bibl xml:id="Q_XLVII_38"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLVII:38</citedRange></bibl>
+                        <bibl xml:id="Q_II_85"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:85</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIV_24"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIV:24</citedRange></bibl>
+                        <bibl xml:id="Q_XVII_67"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVII:67</citedRange></bibl>
+                        <bibl xml:id="Q_XI_28"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XI:28</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIV_31"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIV:31</citedRange></bibl>
+                        <bibl xml:id="Q_VI_148"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VI:148</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIV_6"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIV:6</citedRange></bibl>
+                        <bibl xml:id="Q_III_180"><title>Quran</title><citedRange unit="sura:verse"
+                                    >III:180</citedRange></bibl>
+                        <bibl xml:id="Q_XVIII_39"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVIII:39</citedRange></bibl>
+                        <bibl xml:id="Q_LXXIII_20"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXIII:20</citedRange></bibl>
+                        <bibl xml:id="Q_XLIII_76"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLIII:76</citedRange></bibl>
+                        <bibl xml:id="Q_XI_78"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XI:78</citedRange></bibl>
+                        <bibl xml:id="Q_XVII_110"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVII:110</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIII_31"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIII:31</citedRange></bibl>
+                        <bibl xml:id="Q_XVI_30"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVI:30</citedRange></bibl>
+                        <bibl xml:id="Q_XVI_24"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVI:24</citedRange></bibl>
+                        <bibl xml:id="Q_XVII_76"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVII:76</citedRange></bibl>
+                        <bibl xml:id="Q_II_214"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:214</citedRange></bibl>
+                        <bibl xml:id="Q_XXXV_36"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXV:36</citedRange></bibl>
+                        <bibl xml:id="Q_LXXVII_35"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXVII:35</citedRange></bibl>
+                        <bibl xml:id="Q_LXXVII_36"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXVII:36</citedRange></bibl>
+                        <bibl xml:id="Q_XX_61"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XX:61</citedRange></bibl>
+                        <bibl xml:id="Q_XVI_40"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVI:40</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVI_82"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXVI:82</citedRange></bibl>
+                        <bibl xml:id="Q_XXII_63"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXII:63</citedRange></bibl>
+                        <bibl xml:id="Q_III_142"><title>Quran</title><citedRange unit="sura:verse"
+                                    >III:142</citedRange></bibl>
+                        <bibl xml:id="Q_II_42"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:42</citedRange></bibl>
+                        <bibl xml:id="Q_VI_27"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VI:27</citedRange></bibl>
+                        <bibl xml:id="Q_XLVIII_16"><title>Quran</title><citedRange unit="sura:verse"
+                                    >Q_XLVIII_16</citedRange></bibl>
+                        <bibl xml:id="Q_XLII_51"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLII:51</citedRange></bibl>
+                        <bibl xml:id="Q_XXII_5"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXII:5</citedRange></bibl>
+                        <bibl xml:id="Q_II_282"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:282</citedRange></bibl>
+                        <bibl xml:id="Q_IV_78"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IV:78</citedRange></bibl>
+                        <bibl xml:id="Q_XXX_36"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXX:36</citedRange></bibl>
+                        <bibl xml:id="Q_VII_193"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VII:193</citedRange></bibl>
+                        <bibl xml:id="Q_VII_23"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VII:23</citedRange></bibl>
+                        <bibl xml:id="Q_XI_47"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XI:47</citedRange></bibl>
+                        <bibl xml:id="Q_XI_15"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XI:15</citedRange></bibl>
+                        <bibl xml:id="Q_V_95"><title>Quran</title><citedRange unit="sura:verse"
+                                    >V:95</citedRange></bibl>
+                        <bibl xml:id="Q_II_126"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:126</citedRange></bibl>
+                        <bibl xml:id="Q_LXXII_13"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXII:13</citedRange></bibl>
+                        <bibl xml:id="Q_XX_74"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XX:74</citedRange></bibl>
+                        <bibl xml:id="Q_XX_89"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XX:89</citedRange></bibl>
+                        <bibl xml:id="Q_III_159"><title>Quran</title><citedRange unit="sura:verse"
+                                    >III:159</citedRange></bibl>
+                        <bibl xml:id="Q_LVI_90"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LVI:90</citedRange></bibl>
+                        <bibl xml:id="Q_LVI_91"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LVI:91</citedRange></bibl>
+                        <bibl xml:id="Q_XXI_34"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXI:34</citedRange></bibl>
+                        <bibl xml:id="Q_XXV_68"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXV:68</citedRange></bibl>
+                        <bibl xml:id="Q_XXV_69"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXV:69</citedRange></bibl>
+                        <bibl xml:id="Q_III_111"><title>Quran</title><citedRange unit="sura:verse"
+                                    >III:111</citedRange></bibl>
+                        <bibl xml:id="Q_II_248"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:248</citedRange></bibl>
+                        <bibl xml:id="Q_II_271"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:271</citedRange></bibl>
+                        <bibl xml:id="Q_VII_186"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VII:186</citedRange></bibl>
+                        <bibl xml:id="Q_LXI_10"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXI:10</citedRange></bibl>
+                        <bibl xml:id="Q_LXI_11"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXI:11</citedRange></bibl>
+                        <bibl xml:id="Q_XV_3"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XV:3</citedRange></bibl>
+                        <bibl xml:id="Q_VI_91"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VI:91</citedRange></bibl>
+                        <bibl xml:id="Q_XX_77"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XX:77</citedRange></bibl>
+                        <bibl xml:id="Q_XIV_31"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XIV:31</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIX_64"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIX:64</citedRange></bibl>
+                        <bibl xml:id="Q_LXIII_10"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXIII:10</citedRange></bibl>
+                        <bibl xml:id="Q_LXII_8"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXII:8</citedRange></bibl>
+                        <bibl xml:id="Q_LXXXV_10"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXXV:10</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIX_73"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIX:73</citedRange></bibl>
+                        <bibl xml:id="Q_II_165"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:165</citedRange></bibl>
+                        <bibl xml:id="Q_II_83"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:83</citedRange></bibl>
+                        <bibl xml:id="Q_III_81"><title>Quran</title><citedRange unit="sura:verse"
+                                    >III:81</citedRange></bibl>
+                        <bibl xml:id="Q_VII_18"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VII:18</citedRange></bibl>
+                        <bibl xml:id="Q_XXX_51"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXX:51</citedRange></bibl>
+                        <bibl xml:id="Q_II_145"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:145</citedRange></bibl>
+                        <bibl xml:id="Q_XXXV_41"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXV:41</citedRange></bibl>
+                        <bibl xml:id="Q_LXXXVI_4"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXXVI:4</citedRange></bibl>
+                        <bibl xml:id="Q_V_119"><title>Quran</title><citedRange unit="sura:verse"
+                                    >V:119</citedRange></bibl>
+                        <bibl xml:id="Q_XVII_100"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVII:100</citedRange></bibl>
+                        <bibl xml:id="Q_VI_109"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VI:109</citedRange></bibl>
+                        <bibl xml:id="Q_XX_119"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XX:119</citedRange></bibl>
+                        <bibl xml:id="Q_VIII_18"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VIII:18</citedRange></bibl>
+                        <bibl xml:id="Q_VIII_14"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VIII:14</citedRange></bibl>
+                        <bibl xml:id="Q_XXII_60"><title>Quran</title><citedRange unit="sura:verse"
+                                    >Q_XXII_60</citedRange></bibl>
+                        <bibl xml:id="Q_LIV_10"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LIV:10</citedRange></bibl>
+                        <bibl xml:id="Q_XI_25"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XI:25</citedRange></bibl>
+                        <bibl xml:id="Q_LXXII_18"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXII:18</citedRange></bibl>
+                        <bibl xml:id="Q_LXXII_19"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXII:19</citedRange></bibl>
+                        <bibl xml:id="Q_XVIII_10"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVIII:10</citedRange></bibl>
+                        <bibl xml:id="Q_XLI_6"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLI:6</citedRange></bibl>
+                        <bibl xml:id="Q_VIII_7"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VIII:7</citedRange></bibl>
+                        <bibl xml:id="Q_XXXI_36"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXI:36</citedRange></bibl>
+                        <bibl xml:id="Q_XXIII_35"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXIII:35</citedRange></bibl>
+                        <bibl xml:id="Q_IX_63"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IX:63</citedRange></bibl>
+                        <bibl xml:id="Q_VI_54"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VI:54</citedRange></bibl>
+                        <bibl xml:id="Q_L_17"><title>Quran</title><citedRange unit="sura:verse"
+                                    >L:17</citedRange></bibl>
+                        <bibl xml:id="Q_XVI_62"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVI:62</citedRange></bibl>
+                        <bibl xml:id="Q_LI_23"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LI:23</citedRange></bibl>
+                        <bibl xml:id="Q_V_115"><title>Quran</title><citedRange unit="sura:verse"
+                                    >V:115</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIX_3"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIX:3</citedRange></bibl>
+                        <bibl xml:id="Q_XXV_20"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXV:20</citedRange></bibl>
+                        <bibl xml:id="Q_XII_35"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XII:35</citedRange></bibl>
+                        <bibl xml:id="Q_IX_54"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IX:54</citedRange></bibl>
+                        <bibl xml:id="Q_LXIII_1"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXIII:1</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVII_158"><title>Quran</title><citedRange
+                                    unit="sura:verse">XXXVII:158</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIV_7"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIV:7</citedRange></bibl>
+                        <bibl xml:id="Q_XXIX_42"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXIX:42</citedRange></bibl>
+                        <bibl xml:id="Q_XCI_9"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XCI:9</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVII_167"><title>Quran</title><citedRange
+                                    unit="sura:verse">XXXVII:167</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVII_168"><title>Quran</title><citedRange
+                                    unit="sura:verse">XXXVII:168</citedRange></bibl>
+                        <bibl xml:id="Q_LXVII_20"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXVII:20</citedRange></bibl>
+                        <bibl xml:id="Q_II_184"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:184</citedRange></bibl>
+                        <bibl xml:id="Q_LXVIII_14"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXVIII:14</citedRange></bibl>
+                        <bibl xml:id="Q_XXVII_56"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVII:56</citedRange></bibl>
+                        <bibl xml:id="Q_XXIX_24"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXIX:24</citedRange></bibl>
+                        <bibl xml:id="Q_XXIX_29"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXIX:29</citedRange></bibl>
+                        <bibl xml:id="Q_II_90"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:90</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVIII_6"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXVIII:6</citedRange></bibl>
+                        <bibl xml:id="Q_V_117"><title>Quran</title><citedRange unit="sura:verse"
+                                    >V:117</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVII_104"><title>Quran</title><citedRange
+                                    unit="sura:verse">X:117</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVII_105"><title>Quran</title><citedRange
+                                    unit="sura:verse">XXXVII:105</citedRange></bibl>
+                        <bibl xml:id="Q_LVII_29"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LVII:29</citedRange></bibl>
+                        <bibl xml:id="Q_V_71"><title>Quran</title><citedRange unit="sura:verse"
+                                    >V:71</citedRange></bibl>
+                        <bibl xml:id="Q_LXXV_25"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXV:25</citedRange></bibl>
+                        <bibl xml:id="Q_II_230"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:230</citedRange></bibl>
+                        <bibl xml:id="Q_XXXII_1"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXII:1</citedRange></bibl>
+                        <bibl xml:id="Q_XXXII_2"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXII:2</citedRange></bibl>
+                        <bibl xml:id="Q_XLIII_51"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLIII:51</citedRange></bibl>
+                        <bibl xml:id="Q_XLIII_52"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLIII:51</citedRange></bibl>
+                        <bibl xml:id="Q_XLIII_16"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLIII:16</citedRange></bibl>
+                        <bibl xml:id="Q_XXVI_72"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVI:72</citedRange></bibl>
+                        <bibl xml:id="Q_LXXVI_24"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXVI:24</citedRange></bibl>
+                        <bibl xml:id="Q_VII_97"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VII:97</citedRange></bibl>
+                        <bibl xml:id="Q_II_100"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:100</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVII_16"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXVII:16</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVII_17"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXVII:17</citedRange></bibl>
+                        <bibl xml:id="Q_LVI_47"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LVI:47</citedRange></bibl>
+                        <bibl xml:id="Q_LVI_48"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LVI:48</citedRange></bibl>
+                        <bibl xml:id="Q_XXXV_1"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXV:1</citedRange></bibl>
+                        <bibl xml:id="Q_XVI_66"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVI:66</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIX_17"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIX:17</citedRange></bibl>
+                        <bibl xml:id="Q_II_61"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:61</citedRange></bibl>
+                        <bibl xml:id="Q_XXIX_38"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXIX:38</citedRange></bibl>
+                        <bibl xml:id="Q_XI_60"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XI:60</citedRange></bibl>
+                        <bibl xml:id="Q_XI_68"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XI:68</citedRange></bibl>
+                        <bibl xml:id="Q_XVII_59"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVII:59</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIV_15"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIV:15</citedRange></bibl>
+                        <bibl xml:id="Q_XXVII_22"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVII:22</citedRange></bibl>
+                        <bibl xml:id="Q_36_1"><title>Quran</title><citedRange unit="sura:verse"
+                                    >36:1</citedRange></bibl>
+                        <bibl xml:id="Q_36_2"><title>Quran</title><citedRange unit="sura:verse"
+                                    >36:2</citedRange></bibl>
+                        <bibl xml:id="Q_L_1"><title>Quran</title><citedRange unit="sura:verse"
+                                    >L:1</citedRange></bibl>
+                        <bibl xml:id="Q_L_2"><title>Quran</title><citedRange unit="sura:verse"
+                                    >L:2</citedRange></bibl>
+                        <bibl xml:id="Q_XXVII_33"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVII:33</citedRange></bibl>
+                        <bibl xml:id="Q_VIII_42"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VIII:42</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIII_10"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIII:10</citedRange></bibl>
+                        <bibl xml:id="Q_XIX_62"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XIX:62</citedRange></bibl>
+                        <bibl xml:id="Q_XXI_57"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXI:57</citedRange></bibl>
+                        <bibl xml:id="Q_XCII_1"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XCII:1</citedRange></bibl>
+                        <bibl xml:id="Q_XCII_2"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XCII:2</citedRange></bibl>
+                        <bibl xml:id="Q_XCII_3"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XCII:3</citedRange></bibl>
+                        <bibl xml:id="Q_X_89"><title>Quran</title><citedRange unit="sura:verse"
+                                    >X:89</citedRange></bibl>
+                        <bibl xml:id="Q_XVIII_23"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVIII:23</citedRange></bibl>
+                        <bibl xml:id="Q_IV_119"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IV:119</citedRange></bibl>
+                        <bibl xml:id="Q_XII_32"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XII:32</citedRange></bibl>
+                        <bibl xml:id="Q_VI_80"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VI:80</citedRange></bibl>
+                        <bibl xml:id="Q_XV_54"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XV:54</citedRange></bibl>
+                        <bibl xml:id="Q_II_260"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:260</citedRange></bibl>
+                        <bibl xml:id="Q_VI_74"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VI:74</citedRange></bibl>
+                        <bibl xml:id="Q_XIV_35"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XIV:35</citedRange></bibl>
+                        <bibl xml:id="Q_XLIII_26"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLIII:26</citedRange></bibl>
+                        <bibl xml:id="Q_XXVII_25"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVII:25</citedRange></bibl>
+                        <bibl xml:id="Q_XLVII_18"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLVII:18</citedRange></bibl>
+                        <bibl xml:id="Q_XIX_17"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XIX:17</citedRange></bibl>
+                        <bibl xml:id="Q_IX_40"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IX:40</citedRange></bibl>
+                        <bibl xml:id="Q_V_73"><title>Quran</title><citedRange unit="sura:verse"
+                                    >V:73</citedRange></bibl>
+                        <bibl xml:id="Q_VI_160"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VI:160</citedRange></bibl>
+                        <bibl xml:id="Q_XXVI_119"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVI:119</citedRange></bibl>
+                        <bibl xml:id="Q_II_164"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:164</citedRange></bibl>
+                        <bibl xml:id="Q_LXXIV_35"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXIV:35</citedRange></bibl>
+                        <bibl xml:id="Q_LXVI_4"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXVI:4</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVIII_21"><title>Quran</title><citedRange
+                                    unit="sura:verse">XXXVIII:21</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVIII_22"><title>Quran</title><citedRange
+                                    unit="sura:verse">XXXVIII:22</citedRange></bibl>
+                        <bibl xml:id="Q_XXVI_15"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVI:15</citedRange></bibl>
+                        <bibl xml:id="Q_L_11"><title>Quran</title><citedRange unit="sura:verse"
+                                    >L:11</citedRange></bibl>
+                        <bibl xml:id="Q_VI_37"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VI:37</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVIII_50"><title>Quran</title><citedRange
+                                    unit="sura:verse">XXXVIII:50</citedRange></bibl>
+                        <bibl xml:id="Q_LIV_12"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LIV:12</citedRange></bibl>
+                        <bibl xml:id="Q_LXXVIII_28"><title>Quran</title><citedRange
+                                    unit="sura:verse">LXXVIII:28</citedRange></bibl>
+                        <bibl xml:id="Q_LXXI_17"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXI:17</citedRange></bibl>
+                        <bibl xml:id="Q_LXXIII_8"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXIII:8</citedRange></bibl>
+                        <bibl xml:id="Q_XXIV_37"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXIV:37</citedRange></bibl>
+                        <bibl xml:id="Q_LXXV_10"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXV:10</citedRange></bibl>
+                        <bibl xml:id="Q_LXXVIII_11"><title>Quran</title><citedRange
+                                    unit="sura:verse">LXXVIII:11</citedRange></bibl>
+                        <bibl xml:id="Q_II_222"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:222</citedRange></bibl>
+                        <bibl xml:id="Q_LXXV_15"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXV:15</citedRange></bibl>
+                        <bibl xml:id="Q_LXXV_16"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXV:16</citedRange></bibl>
+                        <bibl xml:id="Q_CXII_1"><title>Quran</title><citedRange unit="sura:verse"
+                                    >CXII:1</citedRange></bibl>
+                        <bibl xml:id="Q_CXII_2"><title>Quran</title><citedRange unit="sura:verse"
+                                    >CXII:2</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVIII_41"><title>Quran</title><citedRange
+                                    unit="sura:verse">XXXVIII:41</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVIII_42"><title>Quran</title><citedRange
+                                    unit="sura:verse">XXXVIII:42</citedRange></bibl>
+                        <bibl xml:id="Q_LXXIII_3"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXIII:3</citedRange></bibl>
+                        <bibl xml:id="Q_III_1"><title>Quran</title><citedRange unit="sura:verse"
+                                    >III:1</citedRange></bibl>
+                        <bibl xml:id="Q_III_2"><title>Quran</title><citedRange unit="sura:verse"
+                                    >III:2</citedRange></bibl>
+                        <bibl xml:id="Q_II_237"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:237</citedRange></bibl>
+                        <bibl xml:id="Q_IX_42"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IX:42</citedRange></bibl>
+                        <bibl xml:id="Q_LXXXIX_4"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXXIX:4</citedRange></bibl>
+                        <bibl xml:id="Q_XVIII_64"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVIII:64</citedRange></bibl>
+                        <bibl xml:id="Q_XL_32"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XL:32</citedRange></bibl>
+                        <bibl xml:id="Q_XIII_9"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XIII:9</citedRange></bibl>
+                        <bibl xml:id="Q_LXXXIX_15"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXXIX:15</citedRange></bibl>
+                        <bibl xml:id="Q_LXXXIX_16"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXXIX:16</citedRange></bibl>
+                        <bibl xml:id="Q_XVII_106"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVII:106</citedRange></bibl>
+                        <bibl xml:id="Q_VII_176"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VII:176</citedRange></bibl>
+                        <bibl xml:id="Q_XII_20"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XII:20</citedRange></bibl>
+                        <bibl xml:id="Q_LXIX_30"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXIX:30</citedRange></bibl>
+                        <bibl xml:id="Q_VII_101"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VII:101</citedRange></bibl>
+                        <bibl xml:id="Q_IX_70"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IX:70</citedRange></bibl>
+                        <bibl xml:id="Q_X_13"><title>Quran</title><citedRange unit="sura:verse"
+                                    >X:13</citedRange></bibl>
+                        <bibl xml:id="Q_XIV_9"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XIV:9</citedRange></bibl>
+                        <bibl xml:id="Q_XXX_9"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXX:9</citedRange></bibl>
+                        <bibl xml:id="Q_XXXV_25"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXX:25</citedRange></bibl>
+                        <bibl xml:id="Q_XL_22"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LX:22</citedRange></bibl>
+                        <bibl xml:id="Q_XL_23"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LX:23</citedRange></bibl>
+                        <bibl xml:id="Q_LXIV_6"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXIV:6</citedRange></bibl>
+                        <bibl xml:id="Q_XXVIII_23"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVIII:23</citedRange></bibl>
+                        <bibl xml:id="Q_XXVIII_81"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVIII:81</citedRange></bibl>
+                        <bibl xml:id="Q_II_54"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:54</citedRange></bibl>
+                        <bibl xml:id="Q_XC_6"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XC:6</citedRange></bibl>
+                        <bibl xml:id="Q_LIV_6"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XC:6</citedRange></bibl>
+                        <bibl xml:id="Q_VII_77"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VII:77</citedRange></bibl>
+                        <bibl xml:id="Q_LIII_22"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LIII:22</citedRange></bibl>
+                        <bibl xml:id="Q_LXXV_40"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXV:40</citedRange></bibl>
+                        <bibl xml:id="Q_LXXXIV_3"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXXIV:3</citedRange></bibl>
+                        <bibl xml:id="Q_LXXXIV_2"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXXIV:2</citedRange></bibl>
+                        <bibl xml:id="Q_LXXXIV_5"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LXXXIV:5</citedRange></bibl>
+                        <bibl xml:id="Q_IV_58"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IV:58</citedRange></bibl>
+                        <bibl xml:id="Q_LVIII_9"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LVIII:9</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVII_10"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXVII:10</citedRange></bibl>
+                        <bibl xml:id="Q_VIII_9"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VIII:9</citedRange></bibl>
+                        <bibl xml:id="Q_LXXXIII_36"><title>Quran</title><citedRange
+                                    unit="sura:verse">LXXXIII:36</citedRange></bibl>
+                        <bibl xml:id="Q_LXXXVII_16"><title>Quran</title><citedRange
+                                    unit="sura:verse">LXXXVII:16</citedRange></bibl>
+                        <bibl xml:id="Q_XXXVII_8"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXVII:8</citedRange></bibl>
+                        <bibl xml:id="Q_IV_128"><title>Quran</title><citedRange unit="sura:verse"
+                                    >IV:128</citedRange></bibl>
+                        <bibl xml:id="Q_LIV_15"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LIV:15</citedRange></bibl>
+                        <bibl xml:id="Q_LIV_17"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LIV:17</citedRange></bibl>
+                        <bibl xml:id="Q_LIV_22"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LIV:22</citedRange></bibl>
+                        <bibl xml:id="Q_LIV_32"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LIV:32</citedRange></bibl>
+                        <bibl xml:id="Q_LIV_40"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LIV:40</citedRange></bibl>
+                        <bibl xml:id="Q_LIV_50"><title>Quran</title><citedRange unit="sura:verse"
+                                    >LIV:50</citedRange></bibl>
+                        <bibl xml:id="Q_VII_131"><title>Quran</title><citedRange unit="sura:verse"
+                                    >VII:131</citedRange></bibl>
+                        <bibl xml:id="Q_II_121"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:121</citedRange></bibl>
+                        <bibl xml:id="Q_XIV_25"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XIV:25</citedRange></bibl>
+                        <bibl xml:id="Q_XXVIII_43"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVIII:43</citedRange></bibl>
+                        <bibl xml:id="Q_XXVIII_46"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVIII:46</citedRange></bibl>
+                        <bibl xml:id="Q_XXVIII_51"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXVIII:51</citedRange></bibl>
+                        <bibl xml:id="Q_XXXIX_27"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXIX:27</citedRange></bibl>
+                        <bibl xml:id="Q_II_72"><title>Quran</title><citedRange unit="sura:verse"
+                                    >II:72</citedRange></bibl>
+                        <bibl xml:id="Q_X_24"><title>Quran</title><citedRange unit="sura:verse"
+                                    >X:24</citedRange></bibl>
+                        <bibl xml:id="Q_XXVII_47"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XVII:47</citedRange></bibl>
+                        <bibl xml:id="Q_XLI_30"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XLI:30</citedRange></bibl>
+                        <bibl xml:id="Q_XXXII_16"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XXXII:16</citedRange></bibl>
+                        <bibl xml:id="Q_XCVII_4"><title>Quran</title><citedRange unit="sura:verse"
+                                    >XCVII:4</citedRange></bibl>
+                        <bibl xml:id="Q_III_143"><title>Quran</title><citedRange unit="sura:verse"
+                                    >III:143</citedRange></bibl>
+
+
+
+
+
+                  </listBibl>
+            </body>
+      </text>
+</TEI>
