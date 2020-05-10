@@ -1,0 +1,2 @@
+This XSLT provides a basic transformation for the Kitāb Sībawayhi's XML resource.
+The output is a number of HMTL files: the opening HTML contains an index structured as hyperlinks to the different chapters.
