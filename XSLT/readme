@@ -1,2 +1,5 @@
-This XSLT provides a basic transformation for the Kitāb Sībawayhi's XML resource.
-The output is a number of HMTL files: the opening HTML contains an index structured as hyperlinks to the different chapters.
+This XSLT provides a basic transformation for the Kitāb Sībawayhi's XML resource that outputs a number of HTML files. 
+The opening HTML ('sib_TEI (SAMPLE).html') contains an index, made of hyperlinks to the different chapters.
+
+
+In progress: ref to Qur'an w/hyperlinks in footnotes.
